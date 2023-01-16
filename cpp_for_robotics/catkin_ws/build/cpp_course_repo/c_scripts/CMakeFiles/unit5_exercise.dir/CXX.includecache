@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/cpp_course_repo/c_scripts/src/unit5_exercise.cpp
+

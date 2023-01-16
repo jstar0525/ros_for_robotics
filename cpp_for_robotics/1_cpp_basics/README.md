@@ -32,3 +32,21 @@ drwxr-xr-x 6 root root 4096 Jan 17 00:40 ../
 $ ./name_compiled
 Hello, ROS developer!
 ```
+
+## 1.2 Compile and execute C++ scripts in ROS
+
+### Exercise 1.1
+[unit_1_exercise.cpp](../catkin_ws/src/cpp_course_repo/c_scripts/src/unit1_exercise.cpp)
+```
+$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws
+```
+```
+$ catkin_make
+```
+```
+$ source ./devel/setup.bash
+```
+```
+$ roscore &
+$ rosrun c_scripts unit1_exercise
+```

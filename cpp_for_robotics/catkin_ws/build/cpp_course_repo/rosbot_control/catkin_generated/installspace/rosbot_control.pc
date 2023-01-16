@@ -1,0 +1,8 @@
+prefix=/root/ros_for_robotics/cpp_for_robotics/catkin_ws/install
+
+Name: rosbot_control
+Description: Description of rosbot_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrosbot_control
+Requires: roscpp
