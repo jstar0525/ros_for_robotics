@@ -1,6 +1,4 @@
-# [C++ for Robotics](../README.md)
-
-## 1. C++ for Basics
+# 1. C++ for Basics
 ```
 $ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/
 ```
@@ -49,4 +47,18 @@ $ source ./devel/setup.bash
 ```
 $ roscore &
 $ rosrun c_scripts unit1_exercise
+```
+
+## 1.3 Variables
+
+### Exercise 1.2
+1) Get the x and y coordinates of the robot by calling twice at the function get_position() and print them together
+2) Make the robot move by calling the function move(), which needs no parameters, and gives no results.
+3) Get the new x and y coordinates of the robot.
+
+[unit_1_exercise2.cpp](../catkin_ws/src/cpp_course_repo/c_scripts/src/unit1_exercise2.cpp)
+
+```
+$ roscore &
+$ rosrun c_scripts unit1_exercise2
 ```

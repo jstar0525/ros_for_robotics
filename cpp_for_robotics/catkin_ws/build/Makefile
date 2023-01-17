@@ -766,30 +766,30 @@ rosbot_control/fast:
 .PHONY : rosbot_control/fast
 
 #=============================================================================
-# Target rules for targets named unit2_exercise
+# Target rules for targets named unit6_exercise
 
 # Build rule for target.
-unit2_exercise: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unit2_exercise
-.PHONY : unit2_exercise
+unit6_exercise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unit6_exercise
+.PHONY : unit6_exercise
 
 # fast build rule for target.
-unit2_exercise/fast:
-	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit2_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit2_exercise.dir/build
-.PHONY : unit2_exercise/fast
+unit6_exercise/fast:
+	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit6_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit6_exercise.dir/build
+.PHONY : unit6_exercise/fast
 
 #=============================================================================
-# Target rules for targets named unit1_exercise
+# Target rules for targets named unit1_exercise2
 
 # Build rule for target.
-unit1_exercise: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unit1_exercise
-.PHONY : unit1_exercise
+unit1_exercise2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unit1_exercise2
+.PHONY : unit1_exercise2
 
 # fast build rule for target.
-unit1_exercise/fast:
-	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise.dir/build
-.PHONY : unit1_exercise/fast
+unit1_exercise2/fast:
+	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise2.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise2.dir/build
+.PHONY : unit1_exercise2/fast
 
 #=============================================================================
 # Target rules for targets named unit3_exercise
@@ -805,17 +805,30 @@ unit3_exercise/fast:
 .PHONY : unit3_exercise/fast
 
 #=============================================================================
-# Target rules for targets named unit6_exercise
+# Target rules for targets named unit1_exercise
 
 # Build rule for target.
-unit6_exercise: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unit6_exercise
-.PHONY : unit6_exercise
+unit1_exercise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unit1_exercise
+.PHONY : unit1_exercise
 
 # fast build rule for target.
-unit6_exercise/fast:
-	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit6_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit6_exercise.dir/build
-.PHONY : unit6_exercise/fast
+unit1_exercise/fast:
+	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise.dir/build
+.PHONY : unit1_exercise/fast
+
+#=============================================================================
+# Target rules for targets named unit2_exercise
+
+# Build rule for target.
+unit2_exercise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unit2_exercise
+.PHONY : unit2_exercise
+
+# fast build rule for target.
+unit2_exercise/fast:
+	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit2_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit2_exercise.dir/build
+.PHONY : unit2_exercise/fast
 
 #=============================================================================
 # Target rules for targets named unit4_exercise
@@ -902,10 +915,11 @@ help:
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... rosbot_control"
-	@echo "... unit2_exercise"
-	@echo "... unit1_exercise"
-	@echo "... unit3_exercise"
 	@echo "... unit6_exercise"
+	@echo "... unit1_exercise2"
+	@echo "... unit3_exercise"
+	@echo "... unit1_exercise"
+	@echo "... unit2_exercise"
 	@echo "... unit4_exercise"
 	@echo "... unit5_exercise"
 .PHONY : help
