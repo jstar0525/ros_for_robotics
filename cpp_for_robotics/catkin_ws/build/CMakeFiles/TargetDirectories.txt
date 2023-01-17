@@ -90,6 +90,7 @@
 /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build/cpp_course_repo/c_scripts/CMakeFiles/unit3_exercise.dir
 /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build/cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise.dir
 /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build/cpp_course_repo/c_scripts/CMakeFiles/unit2_exercise.dir
-/root/ros_for_robotics/cpp_for_robotics/catkin_ws/build/cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir
 /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build/cpp_course_repo/c_scripts/CMakeFiles/rebuild_cache.dir
 /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build/cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir
+/root/ros_for_robotics/cpp_for_robotics/catkin_ws/build/cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir
+/root/ros_for_robotics/cpp_for_robotics/catkin_ws/build/cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir

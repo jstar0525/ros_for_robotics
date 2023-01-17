@@ -62,3 +62,23 @@ $ rosrun c_scripts unit1_exercise
 $ roscore &
 $ rosrun c_scripts unit1_exercise2
 ```
+
+## 1.4 Data types
+- Booleans
+- Numbers (int, double, float)
+- Texts (char, string)
+- List
+- Dictionaries
+### Exercise 1.3
+1) First, modify the script unit1_exercise.cpp of the previous exercise to get the x coordinate of the robot by calling the get_position() function, and also get the time of simulation by calling the get_time() function.
+2) Then, make the robot move by calling the function move()
+3) Repeat step 1: take the x position and the timestamp
+4) Instead of printing them in the shell, you will initialize a dictionary and store the time obtained as a key, and the x position as a value. Do it for all the values you obtained of x, 1 time, 2 times, .. , as many as you want.
+5) Print the dictionary with the code provided in the Dictionaries section.
+
+[unit_1_exercise3.cpp](../catkin_ws/src/cpp_course_repo/c_scripts/src/unit1_exercise3.cpp)
+
+```
+$ roscore &
+$ rosrun c_scripts unit1_exercise3
+```

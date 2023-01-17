@@ -243,21 +243,6 @@ unit2_exercise/fast:
 .PHONY : unit2_exercise/fast
 
 # Convenience name for target.
-cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/rule:
-	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/rule
-.PHONY : cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/rule
-
-# Convenience name for target.
-unit4_exercise: cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/rule
-
-.PHONY : unit4_exercise
-
-# fast build rule for target.
-unit4_exercise/fast:
-	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/build
-.PHONY : unit4_exercise/fast
-
-# Convenience name for target.
 cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir/rule:
 	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir/rule
 .PHONY : cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir/rule
@@ -271,6 +256,36 @@ unit5_exercise: cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir/rule
 unit5_exercise/fast:
 	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir/build
 .PHONY : unit5_exercise/fast
+
+# Convenience name for target.
+cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/rule:
+	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/rule
+.PHONY : cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/rule
+
+# Convenience name for target.
+unit1_exercise3: cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/rule
+
+.PHONY : unit1_exercise3
+
+# fast build rule for target.
+unit1_exercise3/fast:
+	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/build
+.PHONY : unit1_exercise3/fast
+
+# Convenience name for target.
+cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/rule:
+	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/rule
+.PHONY : cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/rule
+
+# Convenience name for target.
+unit4_exercise: cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/rule
+
+.PHONY : unit4_exercise
+
+# fast build rule for target.
+unit4_exercise/fast:
+	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/build
+.PHONY : unit4_exercise/fast
 
 src/unit1_exercise.o: src/unit1_exercise.cpp.o
 
@@ -325,6 +340,33 @@ src/unit1_exercise2.s: src/unit1_exercise2.cpp.s
 src/unit1_exercise2.cpp.s:
 	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise2.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise2.dir/src/unit1_exercise2.cpp.s
 .PHONY : src/unit1_exercise2.cpp.s
+
+src/unit1_exercise3.o: src/unit1_exercise3.cpp.o
+
+.PHONY : src/unit1_exercise3.o
+
+# target to build an object file
+src/unit1_exercise3.cpp.o:
+	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/src/unit1_exercise3.cpp.o
+.PHONY : src/unit1_exercise3.cpp.o
+
+src/unit1_exercise3.i: src/unit1_exercise3.cpp.i
+
+.PHONY : src/unit1_exercise3.i
+
+# target to preprocess a source file
+src/unit1_exercise3.cpp.i:
+	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/src/unit1_exercise3.cpp.i
+.PHONY : src/unit1_exercise3.cpp.i
+
+src/unit1_exercise3.s: src/unit1_exercise3.cpp.s
+
+.PHONY : src/unit1_exercise3.s
+
+# target to generate assembly for a file
+src/unit1_exercise3.cpp.s:
+	cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/build && $(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/src/unit1_exercise3.cpp.s
+.PHONY : src/unit1_exercise3.cpp.s
 
 src/unit2_exercise.o: src/unit2_exercise.cpp.o
 
@@ -478,15 +520,19 @@ help:
 	@echo "... unit3_exercise"
 	@echo "... unit1_exercise"
 	@echo "... unit2_exercise"
-	@echo "... unit4_exercise"
 	@echo "... rebuild_cache"
 	@echo "... unit5_exercise"
+	@echo "... unit1_exercise3"
+	@echo "... unit4_exercise"
 	@echo "... src/unit1_exercise.o"
 	@echo "... src/unit1_exercise.i"
 	@echo "... src/unit1_exercise.s"
 	@echo "... src/unit1_exercise2.o"
 	@echo "... src/unit1_exercise2.i"
 	@echo "... src/unit1_exercise2.s"
+	@echo "... src/unit1_exercise3.o"
+	@echo "... src/unit1_exercise3.i"
+	@echo "... src/unit1_exercise3.s"
 	@echo "... src/unit2_exercise.o"
 	@echo "... src/unit2_exercise.i"
 	@echo "... src/unit2_exercise.s"

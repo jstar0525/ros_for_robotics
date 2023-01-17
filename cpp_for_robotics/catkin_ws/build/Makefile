@@ -831,19 +831,6 @@ unit2_exercise/fast:
 .PHONY : unit2_exercise/fast
 
 #=============================================================================
-# Target rules for targets named unit4_exercise
-
-# Build rule for target.
-unit4_exercise: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unit4_exercise
-.PHONY : unit4_exercise
-
-# fast build rule for target.
-unit4_exercise/fast:
-	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/build
-.PHONY : unit4_exercise/fast
-
-#=============================================================================
 # Target rules for targets named unit5_exercise
 
 # Build rule for target.
@@ -855,6 +842,32 @@ unit5_exercise: cmake_check_build_system
 unit5_exercise/fast:
 	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit5_exercise.dir/build
 .PHONY : unit5_exercise/fast
+
+#=============================================================================
+# Target rules for targets named unit1_exercise3
+
+# Build rule for target.
+unit1_exercise3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unit1_exercise3
+.PHONY : unit1_exercise3
+
+# fast build rule for target.
+unit1_exercise3/fast:
+	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit1_exercise3.dir/build
+.PHONY : unit1_exercise3/fast
+
+#=============================================================================
+# Target rules for targets named unit4_exercise
+
+# Build rule for target.
+unit4_exercise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unit4_exercise
+.PHONY : unit4_exercise
+
+# fast build rule for target.
+unit4_exercise/fast:
+	$(MAKE) -f cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/build.make cpp_course_repo/c_scripts/CMakeFiles/unit4_exercise.dir/build
+.PHONY : unit4_exercise/fast
 
 # Help Target
 help:
@@ -920,8 +933,9 @@ help:
 	@echo "... unit3_exercise"
 	@echo "... unit1_exercise"
 	@echo "... unit2_exercise"
-	@echo "... unit4_exercise"
 	@echo "... unit5_exercise"
+	@echo "... unit1_exercise3"
+	@echo "... unit4_exercise"
 .PHONY : help
 
 
