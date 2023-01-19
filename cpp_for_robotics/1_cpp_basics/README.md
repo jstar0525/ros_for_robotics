@@ -102,3 +102,9 @@ $ rosrun c_scripts unit1_exercise3
 1) First obtain the measure of time and position x with the functions get_time() and get_position(), and store them in variables. Then make the robot move, and obtain again the time and position x storing them in different variables.
 2) Second, calculate the mean speed of the robot in that period
 3) Third, print (using ROS_INFO_STREAM) a True value if the mean speed is lower than 1 m/s
+
+[unit1_exercise4.cpp](../catkin_ws/src/cpp_course_repo/c_scripts/src/unit1_exercise4.cpp)
+
+## 1.7 Comments
+- [//](../catkin_ws/src/cpp_course_repo/utilities/comments.cpp)
+- [/*   */](../catkin_ws/src/cpp_course_repo/utilities/comments.cpp)
