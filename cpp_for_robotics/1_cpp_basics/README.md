@@ -82,3 +82,11 @@ $ rosrun c_scripts unit1_exercise2
 $ roscore &
 $ rosrun c_scripts unit1_exercise3
 ```
+
+## 1.5 I/O functions
+- Print
+    - printf
+    - cout
+- Input
+    - cin
+- Namespace
