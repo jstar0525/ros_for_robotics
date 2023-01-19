@@ -85,8 +85,20 @@ $ rosrun c_scripts unit1_exercise3
 
 ## 1.5 I/O functions
 - Print
-    - printf
-    - cout
+    - [printf](../catkin_ws/src/cpp_course_repo/utilities/printf.cpp) 
+    - [cout](../catkin_ws/src/cpp_course_repo/utilities/cout.cpp)
+    - [endl](../catkin_ws/src/cpp_course_repo/utilities/endl.cpp)
 - Input
-    - cin
+    - [cin](../catkin_ws/src/cpp_course_repo/utilities/cin.cpp)
+    - [getline](../catkin_ws/src/cpp_course_repo/utilities/cin_string.cpp)
 - Namespace
+
+## 1.6 Operators
+- [Arithmetic Operators](../catkin_ws/src/cpp_course_repo/utilities/arithmetic.cpp)
+- [Assignment Operators](../catkin_ws/src/cpp_course_repo/utilities/assignment.cpp)
+- [Comparison Operators](../catkin_ws/src/cpp_course_repo/utilities/comparision.cpp)
+- Logical Operators
+### Exercise 1.4
+1) First obtain the measure of time and position x with the functions get_time() and get_position(), and store them in variables. Then make the robot move, and obtain again the time and position x storing them in different variables.
+2) Second, calculate the mean speed of the robot in that period
+3) Third, print (using ROS_INFO_STREAM) a True value if the mean speed is lower than 1 m/s
