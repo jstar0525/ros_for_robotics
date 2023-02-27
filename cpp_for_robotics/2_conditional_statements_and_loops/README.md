@@ -7,10 +7,6 @@
 - if
 
 ## 2.2 Blocks and indentations
-```
-$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/cpp_course_repo/utilities
-$ touch boring_movie.cpp
-```
 [boring_movie.cpp](../catkin_ws/src/cpp_course_repo/utilities/boring_movie.cpp)
 ```
 $ g++ -std=c++11 boring_movie.cpp -o boring_movie_compiled
@@ -30,25 +26,13 @@ What's the most boring movie you have ever seen?
 
 [unit2_exercise.cpp](../catkin_ws/src/cpp_course_repo/c_scripts/src/unit2_exercise.cpp)
 ```
-$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws
-```
-```
-$ catkin_make
-```
-```
-$ source ./devel/setup.bash
-```
-```
 $ roscore &
 $ rosrun c_scripts unit2_exercise
 ```
 
 ## 2.3 Loops
 ### 2.3.1 While loops
-```
-$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/cpp_course_repo/utilities
-$ touch while_loop.cpp
-```
+
 [while_loop.cpp](../catkin_ws/src/cpp_course_repo/utilities/while_loop.cpp)
 ```
 $ g++ -std=c++11 while_loop.cpp -o while_loop_compiled
@@ -66,24 +50,12 @@ Count: 5
 ### Exercise 2.2
 [unit2_exercise2.cpp](../catkin_ws/src/cpp_course_repo/c_scripts/src/unit2_exercise2.cpp)
 ```
-$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws
-```
-```
-$ catkin_make
-```
-```
-$ source ./devel/setup.bash
-```
-```
 $ roscore &
 $ rosrun c_scripts unit2_exercise2
 ```
 
 ### 2.3.2 For loops
-```
-$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/cpp_course_repo/utilities
-$ touch for_loop.cpp
-```
+
 [for_loop.cpp](../catkin_ws/src/cpp_course_repo/utilities/for_loop.cpp)
 ```
 $ g++ -std=c++11 for_loop.cpp -o for_loop_compiled
@@ -116,25 +88,13 @@ Lumos, Alohomora, Wingardium Leviosa, Crucio, Expecto Patronum,
 
 [unit2_exercise3.cpp](../catkin_ws/src/cpp_course_repo/c_scripts/src/unit2_exercise3.cpp)
 ```
-$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws
-```
-```
-$ catkin_make
-```
-```
-$ source ./devel/setup.bash
-```
-```
 $ roscore &
 $ rosrun c_scripts unit2_exercise3
 ```
 
 ## 2.4 Interrupt of loop iterations
 - break
-```
-$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/cpp_course_repo/utilities
-$ touch interrupt_loop.cpp
-```
+
 [interrupt_loop.cpp](../catkin_ws/src/cpp_course_repo/utilities/interrupt_loop.cpp)
 ```
 $ g++ -std=c++11 interrupt_loop.cpp -o interrupt_loop_compiled
@@ -146,10 +106,7 @@ $ ./interrupt_loop_compiled
  Got out of the while loop!
 ```
 - continue
-```
-$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/cpp_course_repo/utilities
-$ touch continue_loop.cpp
-```
+
 [continue_loop.cpp](../catkin_ws/src/cpp_course_repo/utilities/continue_loop.cpp)
 ```
 $ g++ -std=c++11 continue_loop.cpp -o continue_loop_compiled
