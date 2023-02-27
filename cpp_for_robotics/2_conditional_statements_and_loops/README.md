@@ -128,3 +128,37 @@ $ source ./devel/setup.bash
 $ roscore &
 $ rosrun c_scripts unit2_exercise3
 ```
+
+## 2.4 Interrupt of loop iterations
+- break
+```
+$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/cpp_course_repo/utilities
+$ touch interrupt_loop.cpp
+```
+[interrupt_loop.cpp](../catkin_ws/src/cpp_course_repo/utilities/interrupt_loop.cpp)
+```
+$ g++ -std=c++11 interrupt_loop.cpp -o interrupt_loop_compiled
+```
+```
+$ ./interrupt_loop_compiled
+1
+2
+ Got out of the while loop!
+```
+- continue
+```
+$ cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/cpp_course_repo/utilities
+$ touch continue_loop.cpp
+```
+[continue_loop.cpp](../catkin_ws/src/cpp_course_repo/utilities/continue_loop.cpp)
+```
+$ g++ -std=c++11 continue_loop.cpp -o continue_loop_compiled
+```
+```
+$ ./continue_loop_compiled
+1
+2
+4
+5
+ Got out of the while loop!
+```
