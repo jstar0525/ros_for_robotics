@@ -10,7 +10,7 @@
 - How to encapsulate the code into Classes so you can have clean and robust code
 
 ## [Env.](https://jstar0525.tistory.com/333)
-```
+```bat
 $ docker run -it \
     --privileged \
     --gpus all \
@@ -24,11 +24,20 @@ $ docker run -it \
     -w /root \
     osrf/ros:melodic-desktop-full
 ```
+```bat
+# cd /root
+# git clone https://github.com/jstar0525/ros_for_robotics.git
 ```
-$ cd /root
-$ git clone https://github.com/jstar0525/ros_for_robotics.git
+```bat
+# cd /root/ros_for_robotics/cpp_for_robotics/catkin_ws/src/
+# git clone https://bitbucket.org/theconstructcore/cpp_course_repo.git
 ```
 
 ## Contents
 - [C++ for Robotics](./README.md)
     - [C++ for basics](./1_cpp_basics/README.md)
+    - [Conditional Statements and Loops](./2_conditional_statements_and_loops/README.md)
+    - [Functions](./3_functions/README.md)
+    - [Arrays and Pointers](./4_arrays_and_pointers/README.md)
+    - [C++ Classes](./5_cpp_clasees/README.md)
+    - [Micro Project](./6_micor_project/README.md)
