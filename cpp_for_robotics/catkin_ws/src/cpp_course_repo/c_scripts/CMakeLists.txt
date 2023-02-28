@@ -65,6 +65,11 @@ add_executable(${csname} src/${csname}.cpp)
 add_dependencies(${csname} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(${csname} ${catkin_LIBRARIES})
 
+set(csname unit3_exercise2)
+add_executable(${csname} src/${csname}.cpp)
+add_dependencies(${csname} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(${csname} ${catkin_LIBRARIES})
+
 set(csname unit4_exercise)
 add_executable(${csname} src/${csname}.cpp)
 add_dependencies(${csname} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
