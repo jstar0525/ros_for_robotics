@@ -126,3 +126,8 @@ Now the value of number is: 43
 ```
 
 ### Exercise 4.3
+[unit4_exercise2.cpp](../catkin_ws/src/cpp_course_repo/c_scripts/src/unit4_exercise2.cpp)
+```
+$ roscore &
+$ rosrun c_scripts unit4_exercise2
+```
